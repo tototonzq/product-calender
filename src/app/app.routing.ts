@@ -1,13 +1,3 @@
-import { Routes } from '@angular/router';
-import { LayoutComponent } from './layout/layout.component';
+import { Route } from '@angular/router';
 
-export const routes: Routes = [
-  {
-    path: '',
-    pathMatch: 'full',
-    component: LayoutComponent,
-    data: {
-      layout: 'MODERN',
-    },
-  },
-];
+export const routes: Route[] = [];
